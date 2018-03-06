@@ -1,0 +1,15 @@
+name: jupyter_slides
+
+channels:
+  - conda-forge
+  - damianavila82
+
+dependencies:
+  - python=3.6
+  - jupyter
+  - pandas
+  - matplotlib
+  - bokeh
+  - seaborn
+  - ipyleaflet
+  - rise
