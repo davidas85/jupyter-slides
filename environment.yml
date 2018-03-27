@@ -6,10 +6,20 @@ channels:
 
 dependencies:
   - python=3.6
-  - jupyter
+  - jupyterlab
   - pandas
   - matplotlib
+  - scikit-learn
+  - ipywidgets
+  - beakerx       # interactive tables + lots more
+  - xlrd          # read XLSX files
+  - xlwings       # bi-directional integration with Excel
   - bokeh
-  - seaborn
-  - ipyleaflet
-  - rise
+  - seaborn       # beautiful statistical plots
+  - plotly        # interactive plotting
+  - ipyleaflet    # maps
+  - ua-parser
+  - rise          # live slideshows
+  - bqplot
+  - pip:
+    - cufflinks   # plotly and pandas integration
