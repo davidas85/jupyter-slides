@@ -13,7 +13,7 @@ dependencies:
   - ipywidgets
   - beakerx       # interactive tables + lots more
   - xlrd          # read XLSX files
-  - xlwings       # bi-directional integration with Excel
+#  - xlwings       # bi-directional integration with Excel - only works on local machine
   - bokeh
   - seaborn       # beautiful statistical plots
   - plotly        # interactive plotting
